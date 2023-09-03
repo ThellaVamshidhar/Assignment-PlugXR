@@ -8,14 +8,14 @@ const NavBar = ({ onSaveClick }) => {
   return (
     <div>
       {/* First Navbar with color #004d4d */}
-      <AppBar position="static" style={{ backgroundColor: '#004d4d' }}>
+      <AppBar position="static" style={{ backgroundColor: '#004d4d', height: 64 }}>
         <Toolbar>
           <div className="navbar1"> {/* Add your content here for the first navbar */}</div>
         </Toolbar>
       </AppBar>
 
       {/* Second Navbar with Save button and color #f2f2f2 */}
-      <AppBar position="static" style={{ backgroundColor: '#f2f2f2' }}>
+      <AppBar position="static" style={{ backgroundColor: '#f2f2f2', height: 64 }}>
         <Toolbar>
           <div className="navbar2">
             <Button variant="contained" color="primary" onClick={onSaveClick}>

@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -26,6 +24,41 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.draggable-popup {
+  position: absolute;
+  border: 1px solid;
+}
+
+.divider-hitbox {
+  cursor: col-resize;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  height: 100%;
+  border: 1px solid #808080;
+}
+
+.rightPane {
+  flex: 1;
+}
+
+.splitView {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.App {
+  display: block;
+  border: 1px solid;
+  width: 400px;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
 }
 
 @keyframes App-logo-spin {

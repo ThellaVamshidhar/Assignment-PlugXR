@@ -1,14 +1,13 @@
 // App.js
 import React, { useState } from 'react';
-import NavBar from './NavBar';
-import Sections from './Sections';
-import SaveModal from './SaveModal';
-import Footer from './Footer';
-import Draggable from 'react-draggable'; // Import Draggable
-
+import NavBar from './components/NavBar';
+import Sections from './components/Sections';
+import SaveModal from './components/SaveModal';
+import Footer from './components/Footer';
+import './App.css'
 function App() {
   const [isSaveModalOpen, setSaveModalOpen] = useState(false);
-
+ 
   const handleSaveClick = () => {
     setSaveModalOpen(true);
   };

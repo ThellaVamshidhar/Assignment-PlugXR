@@ -4,7 +4,7 @@ import Toolbar from '@mui/material/Toolbar';
 
 const Footer = () => {
   return (
-    <AppBar position="static" style={{ backgroundColor: '#004d4d' }}>
+    <AppBar position="static" style={{ backgroundColor: '#004d4d', height:64 }}>
       <Toolbar>
         {/* Add your footer content here */}
       </Toolbar>
